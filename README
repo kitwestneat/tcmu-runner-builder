@@ -1,0 +1,2 @@
+docker build -t tcmu-runner-builder .
+docker run -v $PWD:/tcmu-runner tcmu-runner-builder
